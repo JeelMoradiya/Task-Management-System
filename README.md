@@ -1,8 +1,8 @@
-"# Task-Management-System" 
+#Task-Management-System
 
 A modern, user-friendly task management system built with React, Material-UI (MUI), and Axios, designed to help users organize tasks efficiently. This application includes user authentication (login/signup) and a dashboard to create, edit, delete, and filter tasks.
 
-"# Features" 
+#Features
 
 User Authentication: Secure login and signup functionality with JWT-based authentication.
 
@@ -12,7 +12,7 @@ Responsive Design: Built with Material-UI for a professional and responsive UI a
 
 API Integration: Communicates with a backend API for task and user data persistence.
 
-"# Tech Stack" 
+#Tech Stack 
 
 Frontend: React, TypeScript, Material-UI (MUI), React Router, Axios
 
@@ -22,7 +22,7 @@ Styling: MUI's component library and sx prop for styling
 
 Routing: React Router DOM for navigation
 
-"# Installation" 
+#Installation
 bash
 ```
 Navigate to the project directory: cd frontend
@@ -34,7 +34,7 @@ Install dependencies: npm install
 Start the development server: npm run dev
 ```
 
-"# Set Up the Backend" 
+#Set Up the Backend 
 
 This frontend assumes a backend API is running at http://localhost:5001. You need to set up a compatible server with the following endpoints:
 
@@ -53,7 +53,7 @@ PUT /api/tasks/:id - Update a task
 DELETE /api/tasks/:id - Delete a task
 
 
-"# Dependencies" 
+#Dependencies 
 
 @mui/material: Material-UI components
 
@@ -72,7 +72,7 @@ bash
 npm install @mui/material @emotion/react @emotion/styled @mui/icons-material axios react-router-dom 
 ```
 
-"# Usage" 
+#Usage
 
 Landing Page: Access the app at the root URL (/). Click "Get Started" to sign up or "Sign In" to log in.
 
